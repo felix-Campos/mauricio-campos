@@ -1,0 +1,100 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/Imagen1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: left;
+  height: 800px;
+ 
+  
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+.logo{
+  animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  
+}
+
+@media (h: 768max-widtpx) {
+  #Contacto form label {
+    font-weight: 500;
+  }
+
+  .navbar-brand{
+    width: 100px;
+    height: 200px;
+  }
+
+}
+.container-fluid{
+  height: 700px;
+}
+.Acerca-de-mi{
+  background-image: url("../img/Imagen2.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    border: solid black 1px;
+}
+
+ratio-4x3 {
+  @include media-breakpoint-up(md) {
+    --bs-aspect-ratio: 50%; // 2x1
+  }
+}
+#Mis-entrenamientos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid black 1px;
+}
+img {
+  height: 700px;
+  width: 300px;
+  object-fit: contain;
+}
+.logo{
+  height: 60px;
+    width: 60px;
+    animation-duration: 1s;
+      animation-name: slidein;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+@keyframes slidein {
+  from {
+    margin-left: 1%;
+    width: 2%
+  }
+
+  to {
+    margin-left: 2%;
+    width: 3%;
+  }
+}
+    
+
